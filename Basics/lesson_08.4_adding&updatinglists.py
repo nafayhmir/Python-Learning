@@ -22,3 +22,4 @@ print(l3)
 #we can remove specific members of a list using del keyword
 del(l3[0]) #Removed the first member of the list
 print(l3)
+#if we use del function and not add any arguments then it will delete list aswell 
