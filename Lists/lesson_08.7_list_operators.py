@@ -38,7 +38,7 @@ print(num)
 
 #Repetition Operator
 num=[1,2]
-num *=3 #Eaasier way to write "*"
+num *=3 #Easier way to write "*"
 print(num)
 
 #"is" : Checks both value and memory
