@@ -1,0 +1,98 @@
+#MINI PROJECT
+#Details:
+'''
+=========================================
+        PYTHON MINI PROJECT
+      Student Management System
+=========================================
+PROJECT OVERVIEW
+----------------
+Create a menu-driven Student Management System using ONLY the Python concepts learned so far.
+=========================================
+INITIAL DATA
+=========================================
+students = [
+    ["Ali", 80],
+    ["Sara", 92],
+    ["Ahmed", 67]
+]
+========================================
+MAIN MENU
+=========================================
+===== Student Management System =====
+1. Display Students
+2. Add Student
+3. Search Student
+4. Update Marks
+5. Delete Student
+6. Statistics
+7. Exit
+The menu should keep displaying until the user chooses Exit.
+=========================================
+FEATURE REQUIREMENTS
+=========================================
+1. DISPLAY STUDENTS
+-------------------
+Display all students in a readable format.
+Example:
+Name        Marks
+---------------------
+Ali         80
+Sara        92
+Ahmed       67
+=========================================
+2. ADD STUDENT
+--------------
+Ask the user for:
+- Student Name
+- Student Marks
+Then add the student to the list.
+=========================================
+3. SEARCH STUDENT
+-----------------
+Ask the user for a student's name.
+If found:
+Name: Ali
+Marks: 80
+Otherwise:
+Student not found.
+=========================================
+4. UPDATE MARKS
+---------------
+Ask the user for:
+- Student Name
+- New Marks
+Update only that student's marks.
+If the student doesn't exist:
+Student not found.
+=========================================
+5. DELETE STUDENT
+-----------------
+Ask the user for a student's name.
+If found.
+Remove the student.
+Otherwise:
+Student not found.
+=========================================
+6. STATISTICS
+-------------
+Display:
+- Highest Marks
+- Lowest Marks
+- Average Marks
+- Number of Passed Students (Marks >= 50)
+- Number of Failed Students (Marks < 50)
+=========================================
+7. EXIT
+-------
+Terminate the program.
+
+Display a goodbye message before exiting.
+=========================================
+OBJECTIVE
+=========================================
+
+Use everything learned in the Lists chapter to build a complete
+console-based Student Management System without using concepts
+that haven't been taught yet.
+'''
