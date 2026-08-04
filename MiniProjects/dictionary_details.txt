@@ -1,0 +1,279 @@
+# Details:
+'''
+=========================================
+        PYTHON MINI PROJECT
+   Dictionary Student Management System
+=========================================
+
+PROJECT OVERVIEW
+----------------
+Create a menu-driven Student Management System using ONLY the Python concepts learned so far.
+This version should use nested dictionaries to store student records instead of lists.
+
+=========================================
+INITIAL DATA
+=========================================
+
+students = {
+    "24K-1234": {
+        "name": "Ali",
+        "age": 20,
+        "department": "EE",
+        "semester": 3,
+        "cgpa": 3.45,
+        "courses": ["MVC", "ENA"],
+        "attendance": 92,
+        "phone": "03001234567"
+    },
+    "24K-1235": {
+        "name": "Sara",
+        "age": 21,
+        "department": "CS",
+        "semester": 2,
+        "cgpa": 3.82,
+        "courses": ["PF", "Calculus"],
+        "attendance": 88,
+        "phone": "03111234567"
+    }
+}
+
+=========================================
+MAIN MENU
+=========================================
+
+========== Student Management System ==========
+
+1. Display All Students
+2. Add Student
+3. Search Student
+4. Update Student
+5. Delete Student
+6. Add Course
+7. Remove Course
+8. Show Highest CGPA
+9. Statistics
+10. Exit
+
+The menu should continue displaying until the user chooses Exit.
+
+=========================================
+FEATURE REQUIREMENTS
+=========================================
+
+1. DISPLAY ALL STUDENTS
+-----------------------
+Display every student's information in a neat and readable format.
+
+Example:
+
+Student ID : 24K-1234
+Name       : Ali
+Age        : 20
+Department : EE
+Semester   : 3
+CGPA       : 3.45
+Courses    : MVC, ENA
+Attendance : 92%
+Phone      : 03001234567
+
+=========================================
+
+2. ADD STUDENT
+--------------
+Ask the user for:
+
+- Student ID
+- Name
+- Age
+- Department
+- Semester
+- CGPA
+- Phone Number
+
+Initialize:
+
+- Courses = []
+- Attendance = 100
+
+Do not allow duplicate Student IDs.
+
+=========================================
+
+3. SEARCH STUDENT
+-----------------
+Ask the user for a Student ID.
+
+If found, display every detail of that student.
+
+Otherwise display:
+
+Student not found.
+
+=========================================
+
+4. UPDATE STUDENT
+-----------------
+Ask the user for a Student ID.
+
+Allow updating ONE of the following:
+
+1. Name
+2. Age
+3. Department
+4. Semester
+5. CGPA
+6. Phone Number
+7. Attendance
+
+If the Student ID does not exist, display:
+
+Student not found.
+
+=========================================
+
+5. DELETE STUDENT
+-----------------
+Ask the user for a Student ID.
+
+If found:
+
+Delete the complete student record.
+
+Otherwise:
+
+Student not found.
+
+=========================================
+
+6. ADD COURSE
+-------------
+Ask the user for:
+
+- Student ID
+- Course Name
+
+Append the course to the student's course list.
+
+Do not allow duplicate course names.
+
+=========================================
+
+7. REMOVE COURSE
+----------------
+Ask the user for:
+
+- Student ID
+- Course Name
+
+Remove the course from the student's course list.
+
+If the course or student does not exist, display an appropriate message.
+
+=========================================
+
+8. SHOW HIGHEST CGPA
+--------------------
+Find the student with the highest CGPA using loops.
+
+Display:
+
+- Student Name
+- Student ID
+- CGPA
+
+Do NOT use max().
+
+=========================================
+
+9. SHOW DEPARTMENT STUDENTS
+---------------------------
+Ask the user for a department.
+
+Display every student belonging to that department.
+
+Example:
+
+Department : EE
+
+Ali
+Ahmed
+Usman
+
+=========================================
+
+10. ATTENDANCE REPORT
+---------------------
+Display every student's attendance status.
+
+If attendance >= 75
+
+Display:
+
+Eligible
+
+Otherwise display:
+
+Short Attendance
+
+=========================================
+
+11. STATISTICS
+--------------
+Display:
+
+- Total Number of Students
+- Average CGPA
+- Highest CGPA
+- Lowest CGPA
+- Number of EE Students
+- Number of CE Students
+- Number of CS Students
+- Number of Passed Students (CGPA >= 2.00)
+- Number of Students on Probation (CGPA < 2.00)
+
+Calculate everything manually using loops.
+
+=========================================
+
+12. EXIT
+--------
+Terminate the program.
+
+Display a goodbye message before exiting.
+
+=========================================
+RULES
+=========================================
+
+Use ONLY the concepts learned so far.
+
+Allowed:
+
+- Variables
+- Input / Output
+- Operators
+- Conditional Statements
+- Loops
+- Strings
+- Lists
+- Tuples
+- Dictionaries
+- Nested Dictionaries
+- Dictionary Methods
+- Dictionary Traversal
+- Membership Operators
+
+=========================================
+OBJECTIVE
+=========================================
+
+Use everything learned from the Variables, Input/Output, Operators,
+Conditional Statements, Loops, Strings, Lists, Tuples, and Dictionaries
+chapters to build a complete console-based Student Management System.
+The project should demonstrate mastery of nested dictionaries,
+dictionary traversal, CRUD (Create, Read, Update, Delete) operations,
+list manipulation inside dictionaries, data validation, menu-driven
+programming, and logical problem solving without using concepts that
+have not yet been taught.
+'''
+```
