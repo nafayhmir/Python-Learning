@@ -1,4 +1,4 @@
-'''n="Nafayh"
+n="Nafayh"
 c="BS EE"
 u="FAST-NUCES"
 clas="BS-EE-3C"
@@ -8,5 +8,5 @@ print("Course:", c)
 print("Class:", clas)
 car="Toyota"
 year=2020
-print("Car:", car, year)'''
+print("Car:", car, year)
 

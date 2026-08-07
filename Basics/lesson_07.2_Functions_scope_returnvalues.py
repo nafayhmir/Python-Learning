@@ -1,7 +1,7 @@
 #Scope and Return Values
 #Return Value
 #use return when defining a function so you dont have to print like previously i.e
-'''
+
 def add(a,b):
     x=a+b
     return x
@@ -9,17 +9,17 @@ def add(a,b):
 a=5
 b=10
 c=add(a,b)
-print(c)'''
+print(c)
 #We can basically store values of functions using return
 
 #we can also return multiple values
-'''def calculate(a, b):
+def calculate(a, b):
     return a + b, a - b
 
 sum_result, difference = calculate(10, 4)
 
 print(sum_result)
-print(difference)'''
+print(difference)
 
 #Practice: Student Grade Calculator 
 def grade(num):

@@ -3,11 +3,11 @@
 
 #Basic Syntax while condition:
 #Printing Even Numbers
-'''x=0
+x=0
 while x<=20:
     if x%2==0:
         print(x)
-    x+=1'''
+    x+=1
 #Printing back numbers i.e 50->0
 
 number=int(input("Where should code start From? "))

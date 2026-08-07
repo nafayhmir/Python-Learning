@@ -2,13 +2,13 @@
 #Basically Like Arrays but are able to store different data types
 #i.e students = ["Ali", "Ahmed", "Sara", "Fatima"]
 #we can access these lists using [index_no],index starts from 0
-'''students = ["Ali", "Ahmed", "Sara", "Fatima"]
+students = ["Ali", "Ahmed", "Sara", "Fatima"]
 print(students)
 print(students[2])
 #Python will remember the order that the items were placed in
 #We can also edit individual parts of the List
 students[1]="Nafayh"
-print(students)'''
+print(students)
 #Duplicates are possible and we dont need to specify size of list
 
 #Empty lists

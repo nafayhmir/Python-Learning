@@ -5,26 +5,26 @@
 #A function can have multiple parameters
 
 #Practice 1: Greeting function
-'''
+
 def say_hello(name):
     print("Hello",name)
     
 
-say_hello("Nafayh")'''
+say_hello("Nafayh")
 
 #Practice 2: Square Number
-'''def sqrt(x):
+def sqrt(x):
     x=x*x
     print(x)
     
-sqrt(8)'''
+sqrt(8)
 
 #Practice 3: Area of Triangle
-'''def area(base,height):
+def area(base,height):
     Area=0.5*base*height
     print(Area)
 
-area(10,10)'''
+area(10,10)
 
 #Practice 4: Calculator
 def add(a,b):

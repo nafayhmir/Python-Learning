@@ -1,29 +1,29 @@
 #Even and Odd Check
-'''x=int(input("Input Number: "))
+x=int(input("Input Number: "))
 y=x%2
 if y==0:
     print("Even Number")
 else:
-    print("Odd Number")'''
+    print("Odd Number")
     
 #Positive,Negative and Zero check
-'''x=int(input("Input Number: "))
+x=int(input("Input Number: "))
 if x>0:
     print("Positive Number")
 elif x==0:
     print("Number is Zero")
 elif x<0:
-    print("Number is Negative")'''
+    print("Number is Negative")
 
 #Password Check
-'''x=input("Password: ")
+x=input("Password: ")
 if x=="N11":
     print("Same Password") #String Check
 else:
-    print("Password is Wrong")'''
+    print("Password is Wrong")
 
 #Grade Calculator
-'''x=int(input("Input Marks: "))
+x=int(input("Input Marks: "))
 if x>90:
     print("A+")
 elif x>80 and x<90:
@@ -31,7 +31,7 @@ elif x>80 and x<90:
 elif x>70 and x<80:
     print("B")
 elif x>60 and x<70:
-    print("C")'''
+    print("C")
 
 #Basic Atm Menu
 x=100000

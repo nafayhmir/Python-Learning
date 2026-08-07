@@ -1,15 +1,15 @@
 #Creating Dictionaries
-'''
-General Syntax:
-dict_name{
-    "key1":value1,
-    "key2":value2,
-    "key3":value3
-}
-'''
+
+#General Syntax:
+#dict_name{
+#    "key1":value1,
+#    "key2":value2,
+#    "key3":value3
+#}
+
 #colons connect key with value
 #Empty Dictionaries
-dicti={}
+#dicti={}
 #dictionaries can store different variable types
 phone_speck={
     "Name":"Python",
